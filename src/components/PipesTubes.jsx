@@ -20,7 +20,9 @@ function PipesTubes() {
         method: "POST",
         body: formData,
       }
-    );
+    ).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (

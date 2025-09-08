@@ -12,7 +12,7 @@ function Footer() {
         
         {/* Logo + About */}
         <div className="w-full lg:w-1/4 flex flex-col items-center lg:items-start text-center lg:text-left gap-4">
-          <img className="h-[80px]" src="/logo.png" alt="logo" />
+          <img className="h-[80px]" src="./logo.png" alt="logo" />
           <p className="text-white text-sm sm:text-base">
             Trusted partner in metals, delivering quality, durability, and innovation. Supporting industries worldwide with reliable solutions for growth and success.
           </p>

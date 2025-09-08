@@ -20,7 +20,9 @@ function ButtWeldFit() {
         method: "POST",
         body: formData,
       }
-    );
+    ).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (

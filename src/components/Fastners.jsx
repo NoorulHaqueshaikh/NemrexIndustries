@@ -17,7 +17,9 @@ function Fastners() {
     fetch("https://script.google.com/macros/s/AKfycbykOois5nn8V_X212vpM26ewffLoIvJZX65oqp1o3uCL9gjgbqQZ1W7QwjGzQmqY_i5/exec", {
       method: "POST",
       body: formData
-    });
+    }).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (

@@ -22,7 +22,9 @@ function Contact() {
         method: "POST",
         body: formData,
       }
-    );
+    ).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (

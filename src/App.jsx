@@ -1,5 +1,5 @@
 import React from 'react'
-import { createHashRouter,RouterProvider } from 'react-router-dom'
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Landingpage from './components/Landingpage'
@@ -21,7 +21,7 @@ import SheetPlate from './components/SheetPlate'
 
 
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   [
     {
       path:"/",

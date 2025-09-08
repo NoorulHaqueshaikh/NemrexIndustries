@@ -27,8 +27,8 @@ function Navbar() {
   return (
     <div className="bg-[#464A4D] h-[100px] flex justify-around relative">
       <div className=" w-70 flex items-center pl-2">
-        <img className="h-12 w-16 sm:h-18 sm:w-25 object-contain mb-1" src="/logo.png" alt="logo-image" />
-        <img className="h-16 w-24 sm:h-25 sm:w-37 object-contain" src="/logoText.png" alt="logo-image"/>
+        <img className="h-12 w-16 sm:h-18 sm:w-25 object-contain mb-1" src="./logo.png" alt="logo-image" />
+        <img className="h-16 w-24 sm:h-25 sm:w-37 object-contain" src="./logoText.png" alt="logo-image"/>
       </div>
 
       
@@ -53,7 +53,7 @@ function Navbar() {
         <NavLink to="/contact" className={({isActive}) => isActive ? "navlink":""}>CONTACT</NavLink>
       </div>
       <div className="w-20 items-center hidden md:flex">
-        <img src="/call-logo.png" alt="call-logo" />
+        <img src="./call-logo.png" alt="call-logo" />
       </div>
       <div className="w-20  items-center flex md:hidden">
       <FontAwesomeIcon onClick={menuclick} icon={showmenu ? faXmark : faBars} className={`text-white ml-5 cursor-pointer ${showmenu ? "text-3xl" : "text-2xl"}`} />

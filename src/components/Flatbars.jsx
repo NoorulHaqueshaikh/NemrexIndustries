@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Flatbars() {
   const [submitbtn, setSubmitbtn] = useState("Send Message");
@@ -20,7 +20,9 @@ function Flatbars() {
         method: "POST",
         body: formData,
       }
-    );
+    ).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (

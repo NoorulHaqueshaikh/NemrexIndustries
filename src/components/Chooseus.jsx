@@ -6,25 +6,25 @@ function Chooseus() {
       title: "High-Quality Materials",
       description:
         "We use premium-grade metals and alloys to ensure durability, strength, and long-lasting performance in all our products.",
-      img: "chooseimg1.png",
+      img: "./chooseimg1.png",
     },
     {
       title: "Advanced Manufacturing",
       description:
         "Our state-of-the-art manufacturing process guarantees precision, accuracy, and consistent quality in every product.",
-      img: "chooseimg2.png",
+      img: "./chooseimg2.png",
     },
     {
       title: "Experienced Team",
       description:
         "Our skilled engineers and technicians bring years of expertise to deliver the best solutions tailored to your needs.",
-      img: "chooseimg3.png",
+      img: "./chooseimg3.png",
     },
     {
       title: "Customer Satisfaction",
       description:
         "We prioritize our clients’ requirements, providing reliable service, timely delivery, and complete project support.",
-      img: "chooseimg4.png",
+      img: "./chooseimg4.png",
     },
   ];
 

@@ -21,7 +21,9 @@ function Flanges() {
         method: "POST",
         body: formData,
       }
-    );
+    ).then(()=> {
+      formEle.reset();
+    })
   }
 
   return (
