@@ -7,7 +7,7 @@ function Landingpage() {
     navigate("/contact")
   }
   return (
-    <div className="bg-[url('./landingimg.jpg')] h-[calc(100vh-100px)] bg-cover bg-center w-full">
+    <div className="bg-[url('/landingimg.jpg')] h-[calc(100vh-100px)] bg-cover bg-center w-full">
       <div className="h-[calc(100vh-100px)] bg-cover bg-center w-full">
         <div className="bg-[rgba(241,175,8,0.3)] w-full h-[calc(100vh-100px)] flex justify-center items-center flex-col gap-6 px-4 sm:px-6 md:px-10 text-center">
           
