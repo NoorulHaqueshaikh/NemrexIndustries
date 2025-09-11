@@ -80,7 +80,7 @@ function Navbar() {
              <NavLink onClick={navdisapear} to="/sheetplate" className="px-4 py-2 hover:bg-[#5f6264] w-[100%] ">Sheet/Plate</NavLink>
            </div>
          </div>
-            <NavLink onClick={navdisapear} to="/">MATERIALS</NavLink>
+            <NavLink onClick={navdisapear} to="/materials">MATERIALS</NavLink>
             <NavLink onClick={navdisapear} to="/contact" className={({isActive}) => isActive ? "navlink":""}>CONTACT</NavLink>
         </div>
       </div>
